@@ -1,3 +1,22 @@
 draw_config:
-  separate_combo_diagrams: true
-  combo_diagrams_scale: 2
+  separate_combo_diagrams: false
+  combo_h: 22
+  combo_w: 26
+
+parse_config:
+  zmk_combos:
+    less_than:     { align: top }
+    bracket_left:  { align: bottom } 
+    bracket_right: { align: bottom }
+    bigger_than:   { align: top }
+    grave:            { align: top }
+    parentheses_left: { align: bottom }
+    parentheses_right:{ align: bottom }
+    colon:            { align: top }
+    Pipe:        { align: top }
+    brace_left:  { align: bottom }
+    brace_right: { align: bottom }
+    semcol:      { align: top }
+    astrsk: { align: top, offset: 0.5 }
+    plus:   { align: top, offset: 0.5 }
+    equal:  { align: bottom, offset: 0.5 }
