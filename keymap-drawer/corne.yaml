@@ -264,10 +264,12 @@ combos:
 - p: [32, 33]
   k: ;
   l: [default]
-  a: top
+  a: bottom
 - p: [24, 35]
   k: CAPSLOCK
   l: [default]
+  a: top
+  o: 1.5
 - p: [16, 15]
   k: (
   l: [default]
@@ -295,11 +297,11 @@ combos:
 - p: [27, 28]
   k: '{'
   l: [default]
-  a: bottom
+  a: top
 - p: [31, 32]
   k: '}'
   l: [default]
-  a: bottom
+  a: top
 - p: [2, 3]
   k: <
   l: [default]
@@ -314,37 +316,46 @@ combos:
 - p: [4, 7]
   k: +
   l: [default]
-  a: top
-  o: 0.5
+  a: bottom
+  o: 0.8
 - p: [16, 19]
   k: '='
   l: [default]
-  a: bottom
-  o: 0.5
+  a: top
+  o: 0.8
 - p: [27, 26]
   k: '|'
   l: [default]
-  a: top
+  a: bottom
 - p: [3, 8]
   k: '*'
   l: [default]
   a: top
-  o: 0.5
+  o: 0.8
 - p: [15, 20]
   k: $
   l: [default]
+  a: bottom
+  o: 1.0
 - p: [27, 32]
   k: '!'
   l: [default]
+  a: bottom
+  o: 1.0
 - p: [17, 18]
   k: '&'
   l: [default]
+  a: top
+  o: 0.2
 - p: [29, 30]
   k: _
   l: [default]
+  a: bottom
+  o: 0.2
 - p: [21, 22]
   k: \
   l: [default]
 - p: [14, 13]
   k: '~'
   l: [default]
+  a: top
