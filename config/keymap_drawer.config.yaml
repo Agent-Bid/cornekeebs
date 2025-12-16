@@ -1,22 +1,29 @@
 draw_config:
   separate_combo_diagrams: false
-  combo_h: 22
-  combo_w: 26
+  outer_pad_h: 60
+  arc_radius: 6
 
 parse_config:
   zmk_combos:
-    less_than: { align: top }
-    bracket_left: { align: bottom }
-    bracket_right: { align: bottom }
-    bigger_than: { align: top }
-    grave: { align: top }
-    parentheses_left: { align: bottom }
-    parentheses_right: { align: bottom }
-    colon: { align: top }
-    Pipe: { align: top }
-    brace_left: { align: bottom }
-    brace_right: { align: bottom }
-    semcol: { align: top }
-    astrsk: { align: top, offset: 0.5 }
-    plus: { align: top, offset: 0.5 }
-    equal: { align: bottom, offset: 0.5 }
+    less_than:     { align: top, offset: 0.0 }
+    bracket_left:  { align: bottom, offset: 0.0 }
+    bracket_right: { align: bottom, offset: 0.0 }
+    bigger_than:   { align: top, offset: 0.0 }
+    astrsk:        { align: top, offset: 0.8 }
+    plus:          { align: bottom, offset: 0.8 }
+    tilde:             { align: top, offset: 0.0 }
+    grave:             { align: top, offset: 0.0 }
+    parentheses_left:  { align: bottom, offset: 0.0 }
+    parentheses_right: { align: bottom, offset: 0.0 }
+    colon:             { align: top, offset: 0.0 }
+    ampersand: { align: top, offset: 0.2 }
+    equal:     { align: top, offset: 0.8 }
+    dollar:    { align: bottom, offset: 1.0 }
+    Pipe:        { align: bottom, offset: 0.0 }
+    brace_left:  { align: top, offset: 0.0 }
+    brace_right: { align: top, offset: 0.0 }
+    semcol:      { align: bottom, offset: 0.0 }
+    underscore: { align: bottom, offset: 0.2 }
+    minus:      { align: top, offset: 0.8 }
+    excl:       { align: bottom, offset: 1.0 }
+    cpslck: { align: top, offset: 1.5 }
